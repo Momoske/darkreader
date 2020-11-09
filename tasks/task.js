@@ -49,6 +49,7 @@ class Task {
     watch() {
         if (!this._watchFiles || !this._onChange) {
             return;
+            // TEST 1PROG
         }
 
         const watcher = watch({
